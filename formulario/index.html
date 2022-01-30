@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO_HUGO SUAREZ</title>
+    <meta name="author" content="Hugo Suárez"/>
+    <meta name="description" content="formulario generico_HAB_S1_EX3"/>
+
+</head>
+<body>
+    <header>
+        <h1>formulario de selección</h1>
+    </header>
+    <main>
+        <header>
+            <form action="#" method="get" name="search" target="_blank"> 
+                <fieldset>
+                   
+                    <label for="search">Quiero saber...</label>
+                    <input id="search" name="search" type="search" disabled />
+
+                    <button type="submit">Buscar</button>
+                </fieldset>
+            </form>
+        </header>
+
+      
+            <form action="#" method="get" name="personal_data">
+                <fieldset>
+                    <legend><h3>Datos personales</h3></legend>
+
+                    <label for="name">Nome e apelidos</label>
+                    <input id="name" name="name" type="text" autofocus required />
+
+                    <label for="phone">Telefono</label>
+                    <input id="phone" name="phone" type="tel" value="123456789" disabled/>
+                <p>
+                    <label for="email">email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="url">URL</label>
+                    <input id="url" name="url" type="url" placeholder="Escribe la URL de tu página web personal"/>
+                    <br>
+                
+                    <label for="favcolour">Color favorito</label>
+                    <input id="favcolour" name="favcolour" type="color"/>
+                    
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend><h3>Numeroloxía</h3></legend>
+
+                    
+                    <label for="birthdate">Fecha de nacimiento</label>
+                    <input id="birthdate" name="birthdate" type="date">
+
+                    <label for="birthhour">Hora de nacimiento</label>
+                    <input id="birthhour" name="birthhour" type="time">
+
+                    <label for="date">Fecha actual</label>
+                    <input id="date" name="date" type="datetime-local">
+                    <p>
+                        <label for="month">Mes</label>
+                        <input id="month" name="month" type="month">
+                            
+
+                        <label for="week">Semana</label>
+                        <input id="week" name="week" type="week">
+
+                    </p>
+                    <label for="day">Día</label>
+                    <select id="day" name="day" >
+                        <option value="1">Luns</option>
+                        <option value="2">Martes</option>
+                        <option value="3">Mercores</option>
+                        <option value="4">Xoves</option>
+                        <option value="5">Venres</option>
+                        <option value="6">Sabado</option>
+                        <option value="7">Domingo</option>
+                    </select>
+
+                    <label for="number">Número</label>
+                    <input id="number" name="number" type="number" min="-10" max="10"/>
+                </fieldset>
+
+            </form>
+
+            <button type="submit">Enviar</button>
+            
+        </main>
+    </body>
+
+</html>
